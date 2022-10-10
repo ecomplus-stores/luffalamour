@@ -1,7 +1,8 @@
 {
   "store_id": 2199,
   "name": "luffalamour",
-  "domain": "luffalamour.netlify.app",
+  "domain": "luffalamour.com",
+  "repository": "ecomplus-stores/luffalamour",
   "short_name": "luffalamour",
   "description": "luffalamour",
   "primary_color": "#222831",
