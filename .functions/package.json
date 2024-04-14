@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "description": "SSR for Storefront on Firebase with Cloud Functions",
   "engines": {
-    "node": "14"
+    "node": "14.21.3"
   },
   "main": "index.js",
   "dependencies": {
     "@ecomplus/storefront-renderer": "^2.8.20",
-    "firebase-admin": "^11.2.0",
+    "firebase-admin": "^11.11.1",
     "firebase-functions": "^3.24.1"
   },
   "scripts": {
