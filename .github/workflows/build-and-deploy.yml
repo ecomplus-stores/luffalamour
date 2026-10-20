@@ -38,7 +38,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: '14.21.3'
 
       - name: Cache dependencies
         uses: actions/cache@v2
@@ -68,7 +68,7 @@ jobs:
         run: npm ci --only=production
 
       - name: Check last changed files
-        uses: lots0logs/gh-action-get-changed-files@2.1.4
+        uses: lots0logs/gh-action-get-changed-files@2.2.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
         id: changed_files
